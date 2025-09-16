@@ -41,14 +41,12 @@ const HeroSection = () => {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-text-hero mb-8 leading-tight">
             Envoyez de l&apos;argent{" "}
             <span className="relative inline-block">
-              <span className="bg-gradient-cyber bg-clip-text text-transparent">
+              <span className="bg-accent bg-clip-text text-transparent">
                 partout
               </span>
             </span>
             <br />
-            <span className="bg-gradient-matrix bg-clip-text text-transparent">
-              avec la blockchain
-            </span>
+            <span className="">avec la blockchain</span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">

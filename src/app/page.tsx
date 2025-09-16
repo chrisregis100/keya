@@ -1,3 +1,4 @@
+import AppShowcase from "@/components/home/AppShowcase";
 import Footer from "@/components/home/Footer";
 import Header from "@/components/home/Header";
 import HeroSection from "@/components/home/HeroSection";
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <Header />
       <HeroSection />
+      <AppShowcase />
       <Footer />
     </>
   );
