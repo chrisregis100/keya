@@ -44,9 +44,6 @@ const HeroSection = () => {
               <span className="bg-gradient-cyber bg-clip-text text-transparent">
                 partout
               </span>
-              <div className="absolute -top-3 -right-6 text-2xl animate-bounce">
-                🚀
-              </div>
             </span>
             <br />
             <span className="bg-gradient-matrix bg-clip-text text-transparent">

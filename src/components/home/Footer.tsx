@@ -6,9 +6,6 @@ const Footer = () => {
           {/* Company info */}
           <div>
             <div className="flex items-center mb-6">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">S</span>
-              </div>
               <span className="ml-2 text-xl font-bold">KeyaPay</span>
             </div>
             <p className="text-white/70 leading-relaxed">

@@ -1,5 +1,3 @@
-import { Zap } from "lucide-react";
-
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-primary/20">
@@ -7,10 +5,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="w-10 h-10 bg-gradient-tech rounded-xl flex items-center justify-center shadow-glow">
-              <Zap className="w-5 h-5 text-white" />
-            </div>
-            <span className="ml-3 text-2xl font-bold bg-gradient-cyber bg-clip-text text-transparent">
+            <span className="ml-3 text-2xl font-bold text-primary">
               KeyaPay
             </span>
           </div>
