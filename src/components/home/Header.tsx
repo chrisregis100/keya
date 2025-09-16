@@ -1,3 +1,5 @@
+"use client";
+
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-primary/20">
@@ -40,7 +42,10 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="flex items-center space-x-3">
-            <button className="hidden btn btn-ghost sm:inline-flex text-text-secondary hover:text-primary font-medium">
+            <button
+              className="hidden btn btn-secondary sm:inline-flex text-text-secondary hover:text-primary font-medium"
+              onClick={() => (window.location.href = "/connexion")}
+            >
               Se connecter
             </button>
             <button className="neon-button btn btn-primary bg-gradient-tech text-white hover:shadow-neon font-semibold">
