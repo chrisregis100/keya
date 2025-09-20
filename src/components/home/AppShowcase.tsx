@@ -2,7 +2,7 @@ import { Scan, Smartphone, Zap } from "lucide-react";
 
 const AppShowcase = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-background to-accent-neon-blue/5">
+    <section className="py-20 bg-slate-900 from-background to-accent-neon-blue/5">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Interface mobile stylisée */}
